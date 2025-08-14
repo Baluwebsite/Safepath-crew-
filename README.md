@@ -22,7 +22,7 @@ A real-time driver safety monitoring system using Python and OpenCV for liveness
 ## Installation
 
 1. **Clone the repository**
-git clone https://github.com/Baluwebsite/Safepath-crew.git
+git clone https://github.com/Baluwebsite/Safepath-crew-
 cd Safepath-crew
 3. **Install Python dependencies**
 pip install opencv-python numpy

@@ -1,6 +1,6 @@
 # Driver Safety Monitoring System
 
-A real-time driver safety monitoring system using Python and OpenCV for liveness detection (blink + motion), alerting, and face/eye recognition. Built for a hackathon at DHANEKULA INSTITUTE OF ENGINEERING & TECHNOLOGY.
+A real-time driver safety monitoring system using Python and OpenCV for liveness detection (blink + motion), alerting, and face/eye recognition. Built for a hackathon.
 
 ## Features
 

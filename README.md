@@ -18,6 +18,38 @@ A real-time driver safety monitoring system using Python and OpenCV for liveness
 - Haar Cascade Classifiers
 - threading (Python standard library)
 - winsound (Windows alerts)
+  
+## Architecture
+
+Webcam Input Module: Initializes and captures real-time video stream for face and eye monitoring.
+
+Face & Eye Detection Module: Utilizes Haar cascades to detect and track facial features.
+
+Liveness & Anomaly Detection: Monitors blink rates, face movement patterns, and other safety signals.
+
+Alert & Logging System: Issues sound alerts and maintains logs when safety thresholds are crossed (e.g., driver inattentiveness or camera obstruction).
+
+Display/Status Module: Continuously updates the display window with real-time safety status and logs.
+
+## Block Diagram
+ Webcam Input
+     ↓
+Face Detection Module
+     ↓
+Eye Detection Module
+     ↓
+Blink Monitoring
+     ↓
+Head Movement Tracking
+     ↓
+Liveness Detection
+     ↓
+Anomaly Detection
+     ↓
+Alert & Logging System
+     ↓
+Display Output with Real-time Status
+
 
 ## Installation
 
@@ -27,6 +59,7 @@ cd Safepath-crew
 3. **Install Python dependencies**
 pip install opencv-python numpy
 4. Make sure your webcam is working and you are running Windows (for sound alerts).
+
 ## Usage
 1. Run the main script:
                  python "final project.py"

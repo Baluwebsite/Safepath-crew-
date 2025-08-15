@@ -32,22 +32,22 @@ Alert & Logging System: Issues sound alerts and maintains logs when safety thres
 Display/Status Module: Continuously updates the display window with real-time safety status and logs.
 
 ## Block Diagram
- Webcam Input
-     ↓
-Face Detection Module
-     ↓
-Eye Detection Module
-     ↓
-Blink Monitoring
-     ↓
-Head Movement Tracking
-     ↓
-Liveness Detection
-     ↓
-Anomaly Detection
-     ↓
-Alert & Logging System
-     ↓
+ Webcam Input <br>
+↓ <br>
+Face Detection Module <br>
+↓ <br>
+Eye Detection Module <br>
+↓ <br>
+Blink Monitoring <br>
+↓ <br>
+Head Movement Tracking <br>
+↓ <br>
+Liveness Detection <br>
+↓ <br>
+Anomaly Detection <br>
+↓ <br>
+Alert & Logging System <br>
+↓ <br>
 Display Output with Real-time Status
 
 
